@@ -7,38 +7,38 @@ class NavBarScreen extends StatefulWidget {
 
 class _NavBarState extends State<NavBarScreen> {
   final List<Widget> _screens = [
+    // Scaffold(
+    //   body: Center(
+    //     child: Text('Screen 1'),
+    //   ),
+    // ),
     Scaffold(
       body: Center(
-        child: Text('Screen 1'),
+        child: Text('La page (compte Marque) '),
       ),
     ),
     Scaffold(
       body: Center(
-        child: Text('Screen 2'),
+        child: Text('La page (Appareille photo)'),
       ),
     ),
+    // Scaffold(
+    //   body: Center(
+    //     child: Text('Screen 4'),
+    //   ),
+    // ),
     Scaffold(
       body: Center(
-        child: Text('Screen 3'),
-      ),
-    ),
-    Scaffold(
-      body: Center(
-        child: Text('Screen 4'),
-      ),
-    ),
-    Scaffold(
-      body: Center(
-        child: Text('Screen 5'),
+        child: Text('La page (partie compte abonner'),
       ),
     ),
   ];
 
   final Map<String, IconData> _icons = const {
-    'Map': Icons.location_on,
+    //'Map': Icons.location_on,
     'Message': Icons.messenger_outline,
     'Camera': Icons.camera_alt_outlined,
-    'People': Icons.people,
+    //'People': Icons.people,
     'Menu': Icons.menu,
   };
 
